@@ -19,7 +19,7 @@ $(TARGET): $(OBJ)
 
 .PHONY: clean
 clean:
-        rm -f $(OBJ)
+	rm -f $(OBJ)
 
 install:
         cp helloworld $(DESTDIR)/bin/helloworld
