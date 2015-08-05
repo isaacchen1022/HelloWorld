@@ -12,10 +12,10 @@ all: $(TARGET)
 
 $(TARGET): $(OBJ)
 
-  $(CC) $^ -o $@
+	$(CC) $^ -o $@
 
 %.o: %.c
-  $(CC) -c $(CFLAGS) $^ -o $@
+	$(CC) -c $(CFLAGS) $^ -o $@
 
 .PHONY: clean
 clean:
