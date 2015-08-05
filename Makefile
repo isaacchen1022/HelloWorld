@@ -22,4 +22,4 @@ clean:
 	rm -f $(OBJ)
 
 install:
-        cp helloworld $(DESTDIR)/bin/helloworld
+	cp helloworld $(DESTDIR)/bin/helloworld
